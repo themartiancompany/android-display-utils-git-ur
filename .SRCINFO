@@ -1,0 +1,20 @@
+pkgbase = android-display-utils-git
+	pkgdesc = Android display utilities.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g1f91a468767ad2887d54d30bc6abd305121fbe91
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-display-utils
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = bash
+	provides = android-display-utils=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g1f91a468767ad2887d54d30bc6abd305121fbe91
+	conflicts = android-display-utils
+	source = android-display-utils.tar.gz::https://github.com/themartiancompany/android-display-utils/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-display-utils-git
